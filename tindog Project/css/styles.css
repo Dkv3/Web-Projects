@@ -1,0 +1,201 @@
+/* Doc */
+
+body {
+    background: #282828;
+    color: #e8e7e1;
+}
+
+/* Navbar */
+
+.navbar {
+	background: #FD3A73; 
+    font-weight: 800;
+}
+
+.navbar-brand {
+	color: #e8e7e1; cursor: pointer;
+    margin-left: 1.7em;
+}
+
+.nav-link {
+    color: #a1a199; cursor: pointer;
+    font-weight: 400;
+    margin-right: 4em;
+}
+
+.nav-link:hover {
+    color: #e8e7e1; cursor: pointer;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+    margin-left: 2.2em;
+}
+
+
+.navbar-toggler {
+    background: url('./images/rectangle-list.svg');
+	background: #e8e7e1 !important;
+}
+
+/* Header */
+
+#headerIntro {
+    margin: 3em;
+}
+
+.header {
+    background: #FD3A73; 
+}	
+
+.header h1 {
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 2.0;
+}
+
+.realDog {
+    transform: rotate(25deg);
+    margin: 3em;
+}	
+
+.btn1 {
+    background: transparent;
+    border: 0;
+}
+
+.btn2 {
+    background: transparent;
+    border: 0;
+}
+
+/* Features */
+
+#features {
+    color: #f0806e;
+    background: #dedede;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#features img {
+    width: 25%;
+    height: 25%;
+    margin-top: 3em;
+}
+
+#features h3 {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: -1em;
+}
+
+#features p {
+    text-align: center;
+    line-height: 1.5;
+    margin: 2em;
+}
+
+#features h3 {
+    color: #0a0a0a;
+    line-height: 1.5;
+}
+
+#features p {
+    color: #808080;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background: #f0806e;
+}
+
+#testimonials h1 {
+    font-size: 3em;
+    font-weight: 800;
+    margin: 1em;
+}
+
+#testimonials p {
+    padding-bottom: 1em;
+}
+
+#carousel {
+    height: 15%;
+    width: 15%;
+}
+
+/* Press */
+
+#press {
+    margin: 5em 5em 0;
+    padding-bottom: 2em;
+}
+
+#pressIco {
+    margin: 1em 0;
+    position: relative;
+}
+
+
+/* Pricing */
+
+#pricing {
+    background: #dedede;
+    color: black;
+}
+
+#pricing .card {
+    margin: 2em 1em 1em;
+}
+
+#pricing h1 {
+    font-weight: 800;
+    margin: 1em 1em 0;
+}
+
+#pricing h2 {
+    font-weight: 1000;
+    font-size: 3em;
+}
+
+#pricing p {
+    margin-top: 1em;
+    color: gray;
+    line-height: 1.1;
+}
+
+
+#pricing button {
+    margin-top: 1.5em;
+    font-weight: 500;
+}
+
+/* Call to Action */
+
+#cta {
+    background: #FD3A73;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+#cta h1 {
+    margin-bottom: 1.5em;
+    font-weight: 800;
+}
+
+/* Footer */
+
+#footer {
+    background: #dedede;
+    color: black;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#footerIco {
+    width: 2%;
+    height: 2%;
+    margin: 1em;
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js">
+  
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    
+      
+      <!-- Nav Bar -->
+      
+
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <a class="navbar-brand" href="#">tindog</a>
+    
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> 
+            <span class="navbar-toggler-icon"><img src="./images/rectangle-list.svg" class="img-fluid"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+
+      <!-- Header -->
+
+    <header class="header">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-12 col-sm-12 text-left">
+
+            <div class="text-left" id="headerIntro">
+              <h1>Meet new and interesting dogs nearby.</h1>
+
+                <div class="btn-group">
+                    <button class="btn1" type="submit"><img src="./images/Apple-Appstore4.png"></button>
+                    <button class="btn2" type="submit"><img src="./images/Google-Playstore.png"></button>
+                </div> <!-- Closes btn-group -->
+
+            </div> <!-- Closes headerIntro -->
+
+          </div> <!-- Closes column -->
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="realDog">
+              <img src="images/DogePhone.png" width="40%" height="40%" alt="Doge" class="img-fluid mx-auto d-block">
+            </div> <!-- Closes realDog div -->
+          </div> <!-- Closes column div -->
+
+        </div> <!-- Closes row -->
+  </header>
+
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+          <img src="./images/circle-check.svg" class="img-fluid mx-auto d-block">
+          <h3>Easy to use</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div> <!-- Closes column 1 -->
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img src="./images/circle-dot.svg" class="img-fluid mx-auto d-block">
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div> <!-- Closes column 2 -->
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <img src="./images/heart.svg" class="img-fluid mx-auto d-block">
+          <!-- <div><i class="fa-brands fa-gratipay fa-4x"></i></div> -->
+          <h3>Guaranteed to work</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div> <!-- Closes column 3 -->
+
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+          <div class="carousel-inner" role="listbox">
+
+            <div class="carousel-item active">
+              <h1 class="text-center">I no longer have to sniff other dogs for love. I've found the cutest Corgi on tindog. Woof.</h1>
+              <img src="images/dog-img.jpg" class="img-responsive img-fluid mx-auto d-block rounded-circle" alt="First slide" id="carousel">
+              <p class="text-center"><em>Pebbles, New York</em></p>
+            </div>
+
+            <div class="carousel-item">
+              <h1 class="text-center">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h1>
+              <img src="images/lady-img.jpg" class="img-responsive img-fluid mx-auto d-block rounded-circle"  alt="Second slide" id="carousel">
+              <p class="text-center"><em>Beverly, Illinois</em></p>
+            </div>
+
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+    <!-- Press -->
+
+    <section id="press">
+        <div class="container-fluid">
+          <div class="row text-center">
+
+            <div class="col-lg-3 col-md-12 col-sm-12">
+              <img src="images/techcrunch.png" alt="tc-logo" class="img-responsive w-75" id="pressIco">
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12">
+              <img src="images/tnw.png" alt="tnw-logo" class="img-responsive w-75" id="pressIco">
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12">
+              <img src="images/bizinsider.png" alt="biz-insider-logo" class="img-responsive w-75" id="pressIco">
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12">
+              <img src="images/mashable.png" alt="mashable-logo" class="img-responsive w-75" id="pressIco">
+            </div>
+          
+          </div> <!-- Closes row -->
+        </div> <!-- Closes container-fluid -->
+    </section> <!-- Closes press -->
+
+  </section> <!-- Closes testimonials -->
+
+    <!-- Pricing -->
+
+  <section id="pricing">
+    <div class="container-fluid" id="priceCards">
+      <div class="row">
+
+        <div class="col-lg-12 col-md-12 col-sm-12" id="pricingTitle">
+          <h1 class="text-center">A Plan for Every Dog's Needs</h2>
+          <p class="text-center">Simple and affordable price plans for your and your dog.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card text-center">
+            <h3 class="card-header"><b>Chihuahua</b></h3>
+              <div class="card-body">
+                <h2 class="card-title">Free</h2>
+                <p class="card-text">5 Matches Per Day</p>
+                <p class="card-text">10 Messages Per Day</p>
+                <p class="card-text">Unlimited App Usage</p>
+                <button type="button" class="btn btn-outline-secondary btn-block">Sign Up</button>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card text-center">
+            <h3 class="card-header"><b>Labrador</b></h3>
+              <div class="card-body">
+                <h2 class="card-title">$49 / mo</h2>
+                <p class="card-text">Unlimited Matches</p>
+                <p class="card-text">Unlimited Messages</p>
+                <p class="card-text">Unlimited App Usage</p>
+                <button type="button" class="btn btn-dark btn-block">Sign Up</button>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card text-center">
+            <h3 class="card-header"><b>Mastiff</b></h3>
+              <div class="card-body">
+                <h2 class="card-title">$99 / mo</h2>
+                <p class="card-text">Pirority Listing</p>
+                <p class="card-text">Unlimited Matches</p>
+                <p class="card-text">Unlimited Messages</p>
+                <p class="card-text">Unlimited App Usage</p>
+                <button type="button" class="btn btn-dark btn-block">Sign Up</button>
+              </div>
+          </div>
+        </div>
+
+      </div> <!-- Closes row -->
+    </div> <!-- Closes priceCards -->
+  </section> <!-- Closes pricing -->
+
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+      <div class="row text-center">
+
+        <div class="col-lg-12 col-md-12 col-sm-12" id="ctaText">
+          <div class="container">
+            <h1>Find the True Love of Your Dog's Life Today.</h1>
+          </div>
+          <button class="btn1" type="submit"><img src="./images/Apple-Appstore4.png"></button>
+          <button class="btn2" type="submit"><img src="./images/Google-Playstore.png"></button>
+        </div>
+
+      </div> <!-- Closes row -->
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="row text-center">
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div>
+            <img src="./images/facebook.svg" class="img-fluid" id="footerIco">
+            <img src="./images/instagram.svg" class="img-fluid" id="footerIco">
+            <img src="./images/twitter.svg" class="img-fluid" id="footerIco">
+            <img src="./images/envelope.svg" class="img-fluid" id="footerIco">
+          </div>
+
+          <p>© Copyright 2022 tindog</p>
+          <br>
+          <p>Made with<img src="./images/polyFlop.gif">by Connor Thompson</p>
+        </div>
+
+      </div> <!-- Closes row -->
+    </footer>
+
+  </div> <!-- Closes container -->
+</body>
+
+</html>
