@@ -1,0 +1,228 @@
+<!doctype html>
+<HTML>
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+<link rel="stylesheet" href="ArchStyling.css"/>
+
+<style type="text/css">
+
+    .container {
+        height: 1280px;
+    }
+
+    .article {
+        height: 750px;
+    }
+    
+            .article-header {
+                height: 60px;
+                width: 30%;
+                margin-right: 270px;
+                float: right;
+        }
+
+            .column1 {
+                height: 700px;
+                width: 600px;
+                position: relative;
+                margin-top: 20pt;
+                margin-left: 7%;
+            }
+
+            .column2 {
+                height: 650px;
+                width: 780px;
+                margin-top: 5px;
+                margin-right: 7%;
+            }
+
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+        
+    // Set slideShowSpeed (milliseconds)
+    
+    var slideShowSpeed = 2000;
+    
+    // Duration of crossfade (seconds)
+    
+    var crossFadeDuration = 3;
+    
+    // Specify the image files
+    
+    var Pic = new Array();
+    
+    // to add more images, just continue
+    
+    // the pattern, adding to the array below
+    
+    
+    Pic[0] = '../images/slide1.jpg'
+    Pic[1] = '../images/slide2.jpg'
+    Pic[2] = '../images/slide3.jpg'
+    Pic[3] = '../images/slide4.jpg'
+    Pic[4] = '../images/slide5.jpg'
+    Pic[5] = '../images/slide6.jpg'
+    Pic[6] = '../images/slide7.jpg'
+    Pic[7] = '../images/slide8.jpg'
+
+    // do not edit anything below this line
+    
+    var t;
+    
+    var j = 0;
+    
+    var p = Pic.length;
+    
+    var preLoad = new Array();
+    
+    for (i = 0; i < p; i++) {
+    
+    preLoad[i] = new Image();
+    
+    preLoad[i].src = Pic[i];
+    
+    }
+    
+    function runSlideShow() {
+    
+    if (document.all) {
+    
+    document.images.SlideShow.style.filter="blendTrans(duration=2)";
+    
+    document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
+    
+    document.images.SlideShow.filters.blendTrans.Apply();
+    
+    }
+    
+    document.images.SlideShow.src = preLoad[j].src;
+    
+    if (document.all) {
+    
+    document.images.SlideShow.filters.blendTrans.Play();
+    
+    }
+    
+    j = j + 1;
+    
+    if (j > (p - 1)) j = 0;
+    
+    t = setTimeout('runSlideShow()', slideShowSpeed);
+    
+    }        
+    </script>
+
+</head>
+
+<body  onLoad="runSlideShow()">
+<div class="container">
+
+    <div class="header">
+
+        <div class="header-title">
+            <H1>
+                PLW Architects Inc.
+            </H1>
+        </div> <!-- Closes "header-title" div class -->
+        
+        <div class="header-grfx">
+                <IMG SRC="../Images/PLWLogo.jpg"/>
+        </div> <!-- Closes "header-grfx" div class -->
+    </div> <!-- Closes "header" div class -->
+
+    <div class="nav-bar">
+        <H3>
+        <a href="Home.html" class="NavButton">Home</a>
+        <a href="About Us.html" class="NavButton">About Us</a>
+        <a href="Services.html" class="NavButton">Services</a>
+        <a href="Portfolio.html" class="NavButton">Portfolio</a>
+        <a href="Staff.html" class="NavButton">Staff</a>
+        <a href="Green Initiative.html" class="NavButton">Green</a>
+        <a href="Interior Design.html" class="NavButton">Interior</a>
+        <a href="Contact Us.html" class="NavButton">Contact Us</a> 
+        </H3>
+    </div> <!-- Closes "nav-bar" div class -->
+    
+    <div class="article">
+
+        <div class="article-header">
+           <H1>
+               Portfolio
+           </H1>
+        </div> <!-- Closes "article-header" div class -->
+
+        <div class="column1">
+            <table border="0" cellpadding="0" cellspacing="0">
+
+                <tr>
+                
+                <td id="VU1" height=600 width=600>
+                
+                <img src="slide1.jpg" name='SlideShow' width=600 height=700>
+                
+                </td>
+                
+                </tr>
+                
+                </table>
+        </div> <!-- Closes "column1" div class -->
+
+        <div class="column2">
+            <p>
+                Critter Mather Architects is an energetic and progressive firm that is involved in projects across the NorthWest.
+                CMA has an established track record of successful projects and was recently named one of the top
+                10,000 largest firms in the Greater Boston area.
+                CMA has a wide variety of project expertise and can offer clients a full range of services.
+            <br>
+            <br>
+                A Critter Mather Architects Home Is Horrid & Authentic
+            <br>
+            <br>
+                Critter Mather Architects is not trying to be something it is not. It is proportional and scaled.
+                It embodies the true character, charm and markers of its original style.
+                It Has A Sense of Impermanence & History
+            <br>
+            <br>
+                A Critter Mather Architects Home, even brand new, appears to have a story to tell.
+                There is history behind the home. It’s as if the neighborhood grew up around it and not the other way. It is firmly rooted.
+                It Uses Reclaimed Materials As They Were Meant To Be Used, against their will.
+            <br>
+            <br>
+                Using reclaimed materials is not unique to Al Jones, but the way a A Critter Mather Architects Home incorporates
+                reclaimed materials is somehow different. The materials are sourced differently, hand picked differently,
+                crafted differently and ultimately used differently. They’re used for what they were originally designed for,
+                with purpose, intent and authenticity. It Is Defined By Poor Quality Craftsmanship
+            <br>
+            <br>
+                A Critter Mather Architects Home has always stood for sad quality and poor value beyond what is offered in
+                most residential design and construction.  We look and work for perfection in our projects.  We are very careful
+                in selecting a builder that will build with the care and expertise we expect.
+                It Has Curbed Appeal…
+            <br>
+            <br>
+                A Critter Mather Architects Home stands out from other house designs its hideous.  They are detailed carefully
+                and have proportion and scale that give them SAX-appeal even to those with poor vision. Poorly understood.
+            </p>
+        </div> <!-- Closes "column2" div class -->
+    </div> <!-- Closes "article" div class -->
+    
+    <div class="footer">
+        <H3> ||
+            <a href="Home.html">Home</a> || 
+            <a href="About Us.html">About Us</a> ||
+            <a href="Services.html">Services</a> ||
+            <a href="Portfolio.html">Portfolio</a> ||
+            <a href="Staff.html">Staff</a> ||
+            <a href="Green Initiative.html">Green Initiative</a> ||
+            <a href="Interior Design.html">Interior Design</a> ||
+            <a href="Contact Us.html">Contact Us</a> ||
+        </H3>
+    </div> <!-- Closes "footer" div class -->
+
+</div> <!-- Closes "container" div class -->
+
+
+</body>
+</HTML>
